@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #C1B5AD;
+}
+
+#map {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+#panel {
+    background-color: rgb(202, 138, 74);
+    position: fixed;
+    width: 22vw;
+    height: 100vh;
+    top: 0px;
+    right: 0px;
+    opacity: 0.9;
+}
+
+#inputBox {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh;
+    justify-content: center;
+    background-color: red;
+    align-items: center;
+}
+
+#activities {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+    height: 45vh;
+    justify-content: last baseline;
+    background-color: red;
+    align-items: center;
+}
+
+#inputBox>input {
+    padding: 5px;
+    margin: 5px;
+}
+
+#list {
+    width: 20vw;
+    height: 57vh;
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 2vh;
+    right: 1vw;
+}
+
+#entry {
+    width: 20vw;
+    height: 37vh;
+    background-color: aquamarine;
+    position: fixed;
+    top: 1vh;
+    right: 1vw;
+}
